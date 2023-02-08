@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Source+Code+Pro:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    /* background-color: brown; */
+    background-color: rgb(180, 180, 180);
+    width: 18vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    border-radius: 13px;
+    transition: transform 0.3s ease-in;
+    color: rgb(0, 0, 0);
+}
+.sidebarGo{
+    transform: translate(-455px, 0px);
+    position: absolute;
+    }
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main{
+
+    width: 90vw;
+}
+.container{
+    display:flex 
+}
+.infoContainer{
+    /* background-color: rgb(255, 145, 145); */
+    height: 48vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 40vw;
+    height: 60vh;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+}
+.hello{
+    font-size: 25px;
+    
+}
+.name{
+    font-size: 55px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 23px;
+    color: rgb(167, 251, 229);
+    background-color: rgb(124, 205, 224);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(167, 251, 229);
+    color:  rgb(124, 205, 224);;
+}
+.moreabout{
+    font-size: 29px;
+    margin-top: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactform{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 100px;
+    padding-top: 23px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    text-align: center;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    }
+.contactform form div input{
+        width: 26vw;
+        border-radius: 5px;
+        margin: 6px 0 0 өө;
+        padding: 3px;
+    }
+.blogContainer{
+        padding: 20px;
+    margin: 20px;
+    }
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    }
+ .btn{
+    padding: 9px 14px;
+    border-radius: 23px;
+    color: rgb(152, 253, 226);
+    background-color: rgb(78, 140, 216);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: rgb(167, 251, 229);
+    color:  rgb(124, 205, 224);;
+ }
+.blogConatainer{
+    padding: 23px;
+}
+.blogitem{
+    margin: 23px;
+    height: auto;
+    font-weight: 200;
+    font-family: 'Source Code Pro',monospace;
+}
+.btn-sm{
+    padding: 5px 7px;
+    border-radius: 23px;
+    color: rgb(167, 251, 229);
+    background-color: rgb(124, 205, 224);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background-color: rgb(167, 251, 229);
+    color:  rgb(124, 205, 224);;
+}
+.ham{
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
